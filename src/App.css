@@ -1,0 +1,39 @@
+.app_header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.app_header h1 {
+  color: white;
+}
+
+.app_cards {
+  display: flex;
+  justify-content: space-between;
+}
+body {
+  background-image: url("https://sites.usc.edu/coronavirus/files/2020/03/novel-coronavirus-940-400-825x400.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  opacity: 1;
+}
+
+.App {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+@media (max-width: 990px) {
+  .App {
+    flex-direction: column;
+  }
+  .app_bottom {
+    margin-top: 20px;
+  }
+}
+.app_left {
+  flex: 0.9;
+}

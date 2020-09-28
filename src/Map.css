@@ -1,0 +1,29 @@
+.map {
+  height: 499px;
+  background-color: white;
+  padding: 1rem;
+  box-shadow: 0 0 8px -4px rgba(0, 0, 0, 0.5);
+  margin-top: 20px;
+  border-radius: 35px;
+}
+.map .leaflet-container {
+  height: 100%;
+}
+.pop_style {
+  width: 100%;
+  height: 75px;
+  border-radius: 8px;
+  background-size: cover;
+  margin-bottom: 10px;
+}
+.pop_case,
+.pop_rec,
+.pop_death {
+  font-size: 12px;
+  margin-top: 5px;
+}
+.pop_name {
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+}

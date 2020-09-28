@@ -1,0 +1,16 @@
+.side {
+  height: 90vh;
+  overflow-y: scroll;
+  margin-top: 10px;
+}
+.side tr:nth-child(even) {
+  background-color: honeydew;
+}
+
+.side tr {
+  display: flex;
+  justify-content: space-between;
+}
+.side td {
+  padding: 0.7rem;
+}

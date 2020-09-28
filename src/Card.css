@@ -1,0 +1,26 @@
+.cards {
+  flex: 1;
+  cursor: pointer;
+}
+.cards:not(:last-child) {
+  margin-right: 20px;
+}
+.card_cases {
+  color: red;
+}
+.card_total {
+  color: grey;
+}
+.select {
+  border-bottom: 10px solid black;
+}
+
+.yellow {
+  border-color: yellow;
+}
+.purple {
+  border-color: purple;
+}
+.red {
+  border-color: #cc1034;
+}
